@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/7023595-pegadas-de-animal-de-animal-padra-o-sem-costura-padra-o-de-ouro-de-rastros-de-um-gato-cachorro-em-fundo-preto-pet-paw-print-silhuetas-bonito-textura-vetor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;    
+}
+header{
+    padding: 16px 0;
+    background-color: #162c61;
+    color: #ecf0f1;
+}
+header  h1,
+form button {
+    font-family:"Bungee", sans-serif;
+    font-weight: normal;
+}
+ h3{
+    font-family: "Bungee", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: "Bungee", sans-serif;
+    
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+.container{
+max-width: 1280px;
+width: 100%;
+margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-list img{
+    height: 50px;
+   
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    font-family: "Bungee", sans-serif;
+    
+    
+}
+section{
+    color: #162c61;
+}
+section p{
+    margin-bottom: 8px;
+}
+.store-front{
+    margin-right: 32px;
+}
+.Social-network img{
+    height: 24px;
+}
+.Social-network li{
+    display: inline;
+    margin-right: 8px;
+    
+}
+.Social-network li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+section h3{
+    margin-bottom: 16px;
+}
+form button{
+    background-color: #162c61;
+    color: #ecf0f1;
+    border:none ;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #5180ee;
+}
+input:focus textarea:focus{
+    outline-color: #162c61;
+}
+footer{
+    background-color: #162c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
